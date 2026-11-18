@@ -4,7 +4,7 @@ require("dotenv").config();
 const multer = require("multer");
 const cors = require("cors");
 const port = process.env.PORT || 3000;
-const connectDB = require("./db");
+const connectDB = require("./config/db");
 // const path = require("path");
 
 app.use(

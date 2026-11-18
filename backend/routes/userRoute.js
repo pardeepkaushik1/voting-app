@@ -6,7 +6,7 @@ const uploadImage = require("../utils/uploadImage");
 const deleteImage = require("../utils/deleteImage");
 const { jwtAuthMiddleware, generateToken } = require("../jwt");
 const generateOTP = require("../utils/otp");
-const hashOTP = require("../utils/hashOTP");
+const hashOTP = require("../utils/hashOtp");
 const sendOTPEmail = require("../utils/sendEmail");
 
 //post routes to add a user
